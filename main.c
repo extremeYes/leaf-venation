@@ -136,7 +136,6 @@ int main(void)
         if (IsKeyPressed(KEY_SPACE)) {
             calculate_growth_directions();
             grow_new_veins();
-            kill_auxins_by_auximity();
             spray_auxins();
             kill_auxins_by_auximity();
         }
